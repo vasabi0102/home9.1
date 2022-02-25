@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+.wrapper {
+	max-width: 810px;
+	margin: 0 auto;
+	padding-top: 152px;
+}
+body {
+	font-family: "Lato", sans-serif;
+}
+header {
+	margin-bottom: 40px;
+}
+
+.title h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+}
+.title {
+	margin-bottom: 25px;
+}
+.link ul li {
+	display: inline-block;
+}
+.data {
+	background: url("img/pic1.svg") 0 5px no-repeat;
+	padding-left: 25px;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787a80;
+}
+.time {
+	background: url("img/pic2.svg") 0 5px no-repeat;
+	padding-left: 25px;
+	font-size: 16px;
+	line-height: 160%;
+	color: #787a80;
+	margin-left: 25px;
+}
+.list {
+	float: right;
+	padding-left: 20px;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 160%;
+	display: flex;
+	align-items: center;
+	color: #1e212c;
+}
+main {
+	margin-bottom: 65px;
+}
+
+.content {
+	margin-bottom: 60px;
+}
+.text h2 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	margin-bottom: 25px;
+}
+.text p {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.text p:first-of-type {
+	margin-bottom: 30px;
+}
+.text {
+	margin-bottom: 50px;
+}
+.quote {
+	margin-bottom: 50px;
+}
+.quote p {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+	background: url("img/coment.svg") 0 0 no-repeat;
+	padding-left: 60px;
+}
+
+.desc p {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+.desc p:first-of-type {
+	margin-bottom: 25px;
+}
+.desc ul li {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	background: url("img/gal.svg") 0 5px no-repeat;
+	padding: 0px 0px 5px 30px;
+}
+.desc ul li:last-of-type {
+	padding: 0px 0px 0px 30px;
+}
+.desc ul {
+	margin-bottom: 25px;
+}
